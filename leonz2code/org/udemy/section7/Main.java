@@ -30,9 +30,20 @@ public class Main {
 //		bedRoom.getLamp().turnOn();\
 		
 		
+		Integer entero1;
+		int entero2;
+		
+	//	entero2 = entero1 ;
+		
+		
+		HealthyBurger leos1 = new HealthyBurger("leo",true,true);
 		
 		
 		
-	}
+	double xz =	leos1.grandTotal();
+
+		System.out.println("Hamburger Price: " + xz);
+	
+	}	
 
 }
